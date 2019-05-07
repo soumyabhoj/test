@@ -1,0 +1,15 @@
+package com.xray.jsonbuild;
+
+public class TestCaseTypeCustomField {
+	
+	private String value;
+
+	public String getValue() {
+		return value;
+	}
+
+	public void setValue(String value) {
+		this.value = value;
+	}
+
+}

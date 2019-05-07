@@ -1,0 +1,29 @@
+		<apiCall apiId="com.provar.plugins.bundled.apis.bdd.Given" name="Given" testItemId="107">
+		<apiCall apiId="com.provar.plugins.bundled.apis.bdd.When" name="When" testItemId="109">
+		<apiCall apiId="com.provar.plugins.forcedotcom.core.ui.UiConnect" name="UiConnect" testItemId="1" title="UI Connect: AFLS_SIT1">
+		<apiCall apiId="com.provar.plugins.bundled.apis.control.ForEach" name="ForEach" testItemId="40" title="For Each: {ExcelData}=&gt;Row">
+				<apiCall apiId="com.provar.plugins.forcedotcom.core.ui.UiWithScreen" name="UiWithScreen" testItemId="2" title="On MyPageObjectSan page">
+						<apiCall apiId="com.provar.plugins.forcedotcom.core.ui.UiDoAction" name="UiDoAction" testItemId="4" title="Click the Rates And Charges 11">
+						<apiCall apiId="com.provar.plugins.forcedotcom.core.ui.UiDoAction" name="UiDoAction" testItemId="5" title="Click the Tariff Rate">
+						<apiCall apiId="com.provar.plugins.forcedotcom.core.ui.UiDoAction" name="UiDoAction" testItemId="7" title="Click the Add New">
+						<apiCall apiId="com.provar.plugins.forcedotcom.core.ui.UiDoAction" name="UiDoAction" testItemId="14" title="Set the Sheet_ Name 1 to {Row.SheetName}">
+						<apiCall apiId="com.provar.plugins.forcedotcom.core.ui.UiDoAction" name="UiDoAction" testItemId="15" title="Click the Save">
+						<apiCall apiId="com.provar.plugins.forcedotcom.core.ui.UiAssert" name="UiAssert" testItemId="64" title="UI Assert">
+						<apiCall apiId="com.provar.plugins.forcedotcom.core.ui.UiDoAction" name="UiDoAction" testItemId="16" title="Set the Origin to {Row.Origin}">
+						<apiCall apiId="com.provar.plugins.forcedotcom.core.ui.UiDoAction" name="UiDoAction" testItemId="21" title="Set the Destination 1 to {Row.Destination}">
+						<apiCall apiId="com.provar.plugins.forcedotcom.core.ui.UiDoAction" name="UiDoAction" testItemId="22" title="Set the Container 1 to {Row.ContainerSizeType}">
+						<apiCall apiId="com.provar.plugins.forcedotcom.core.ui.UiDoAction" name="UiDoAction" testItemId="24" title="Set the Expiry_ Date to {Row.EffectiveDate}">
+						<apiCall apiId="com.provar.plugins.forcedotcom.core.ui.UiDoAction" name="UiDoAction" testItemId="23" title="Set the Effextive_ Date to {Row.ExpiryDate}">
+						<apiCall apiId="com.provar.plugins.forcedotcom.core.ui.UiDoAction" name="UiDoAction" testItemId="30" title="Set the Rate_ Unit to Per Container">
+						<apiCall apiId="com.provar.plugins.forcedotcom.core.ui.UiDoAction" name="UiDoAction" testItemId="31" title="Set the Rate to 188">
+						<apiCall apiId="com.provar.plugins.forcedotcom.core.ui.UiDoAction" name="UiDoAction" testItemId="34" title="Click the Submit For Approval 1">
+						<apiCall apiId="com.provar.plugins.forcedotcom.core.ui.UiDoAction" name="UiDoAction" testItemId="35" title="Click the Ok">
+						<apiCall apiId="com.provar.plugins.forcedotcom.core.ui.UiDoAction" name="UiDoAction" testItemId="70" title="Click the Publish">
+						<apiCall apiId="com.provar.plugins.forcedotcom.core.ui.UiAssert" name="UiAssert" testItemId="89" title="UI Assert">
+						<apiCall apiId="com.provar.plugins.bundled.apis.control.SetValues" name="SetValues" testItemId="101" title="Set Values: Sts">
+						<apiCall apiId="com.provar.plugins.bundled.apis.If" name="If" testItemId="75" title="If: {Values.fields.status.value = &quot;APPROVED&quot;}">
+								<apiCall apiId="com.provar.plugins.bundled.apis.control.SetValues" name="SetValues" testItemId="93" title="Set Values: exec.Result">
+								<apiCall apiId="com.provar.plugins.bundled.apis.io.Write" name="Write" testItemId="102" title="Write: {exec}=&gt;templates/TestData-SIT.xlsx">
+								<apiCall apiId="com.provar.plugins.bundled.apis.control.SetValues" name="SetValues" testItemId="97" title="Set Values: exec.Result">
+								<apiCall apiId="com.provar.plugins.bundled.apis.io.Write" name="Write" testItemId="99" title="Write: {exec}=&gt;E:\\\\Test\\\\Templates\\\\TestData-SIT_SEA022.xlsx">
+		<apiCall apiId="com.provar.plugins.bundled.apis.bdd.Given" name="Given" testItemId="105">
